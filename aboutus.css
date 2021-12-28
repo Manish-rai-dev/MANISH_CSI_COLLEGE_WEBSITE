@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    background-color: blanchedalmond;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    padding: 0 8%;
+    background-image:url(admiakg.jpg)  ;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-links
+{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 0;
+    position: relative;
+}
+.nav-links li a::after{
+    content: '';
+    background: rgb(219, 91, 59);
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+    
+}
+.nav-links li a:hover::after{
+    width: 100%;
+}
+
+.aboutakg{
+    margin-top: 10%;
+    margin-bottom: 10%;
+padding: 5%;
+
+}
+.akg{
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+.infoakg
+{
+   margin-left: 20%;
+   text-align: center;
+
+}
+
+footer
+{
+  margin-top: 7%;  
+    padding-top: 5%;
+    text-align: center;
+    background-color: grey;
+}
+.fab,.fas
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+}
+.fab:hover
+{
+    color: honeydew;
+}
+.fas:hover
+{
+    color: honeydew;
+}
+
+.dropdown-menu{
+    background-color: grey;
+    text-align: center;
+}
