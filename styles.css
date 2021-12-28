@@ -1,21 +1,34 @@
 
 *{
-    margin: 0;
+    
+    margin: 0px;
     padding: 0;
-    font-family: "poppins",sans-serif;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    background-color: ivory;
+}
+
+
 .hero{
     width: 100%;
     height: 100vh;
     padding: 0 8%;
-    background-image: url(akgec-picture.jfif);
+    background-image: url(admiakg.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
+
 }
 nav{
     display: flex;
@@ -50,56 +63,116 @@ nav{
 .nav-links li a:hover::after{
     width: 100%;
 }
-.txte{
-    font-size: 6rem;
-    position: relative;
-    top: 200px;
-    left: 400px;
+
+.dropdown-menu{
+    background-color: grey;
+    text-align: center;
+}
+.container 
+{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+position: relative;
+left: 100px;
+}
+ p
+{
+    text-align: center;
+    font-family: 'Pushster';
+    padding: 5%;
+
+}
+h3
+{
+    text-align: center;
+    
+    padding: 5%;
+}
+.akgskills
+{
+    padding: 5%;
+}
+.HOSTEL
+{ 
+    padding-top: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%; 
+    border-radius: 7%;
 }
 
-
-
-
-    .rotate{
-        animation: rotation 2s;
-      }
-
-
-      @keyframes rotation {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(359deg);
-        }
-      }
-
-
-
-      .linear{
-        animation-timing-function: linear;
-      }
-
-
-      .infinite{
-        animation-iteration-count: infinite;
-      }
-
-#title{
+.btn1{
+    display: inline-block;
+    margin-top: .6rem;
+    padding-right: 2rem ;
+    padding-left: 2rem;
+    border-radius: 6rem;
+    background:var(--red);
     color:#fff;
-    }
-#features{
-    padding: 7% 15%;
-
+    overflow: hidden;
     position: relative;
-    z-index: 1;
-
-}
-#heading{
-    font-family: 'Montserrat-Bold';
-
-    font-size: 3.5rem;
-    line-height: 1.5;
-
+    z-index: 0;
+    font-size: 1.7rem;
+    text-align: center;
 }
 
+.btn1::before{
+    content:'';
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background:#444;
+    clip-path: polygon(0 0, 100% 0, 0 0, 0% 100%);
+    transition:.3s linear;
+}
+
+.btn1:hover::before{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.contact_us
+{
+    padding: 5%;
+    margin-top: 3% ;
+    margin-bottom: 3%;
+}
+
+footer
+{
+  margin-top: 7%;  
+    padding-top: 5%;
+    text-align: center;
+    background-color: grey;
+}
+.fab,.fas
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.fab:hover
+{
+    color: honeydew;
+}
+.fas:hover
+{
+    color: honeydew;
+}
+
+input
+{
+    border-radius: 100%;
+}
+.form
+{
+    background-color: honeydew;
+    border-radius: 10%;
+}
+.facilities
+{
+    margin: 7% 0% 7% 0%;
+    background-color: honeydew;
+}
