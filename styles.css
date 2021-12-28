@@ -13,7 +13,7 @@ html,body
     margin: 0%;
     padding: 0%;
     overflow-x: hidden;
-    background-color: ivory;
+    background-color: blanchedalmond;
 }
 
 
@@ -81,8 +81,9 @@ left: 100px;
  p
 {
     text-align: center;
-    font-family: 'Pushster';
+    font-family: 'Montserrat';
     padding: 5%;
+    font-size: 1rem;
 
 }
 h3
@@ -95,13 +96,13 @@ h3
 {
     padding: 5%;
 }
-.HOSTEL
+.hostell
 { 
-    padding-top: 7%;
+    padding-top: 12%;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 5%; 
-    border-radius: 7%;
+    border-radius: 10%;
 }
 
 .btn1{
@@ -155,11 +156,11 @@ footer
 }
 .fab:hover
 {
-    color: honeydew;
+    color: ivory;
 }
 .fas:hover
 {
-    color: honeydew;
+    color: ivory;
 }
 
 input
@@ -167,12 +168,20 @@ input
     border-radius: 100%;
 }
 .form
-{
-    background-color: honeydew;
+{  margin-left: 10%;
+    background-color: ivory;
     border-radius: 10%;
 }
 .facilities
 {
     margin: 7% 0% 7% 0%;
-    background-color: honeydew;
+    background-color: ivory;
+}
+
+.info
+{ border-radius: 10%;
+    background-color: ivory;  
+}
+table{
+    text-align: center;
 }
