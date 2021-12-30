@@ -16,7 +16,7 @@ html,body
     overflow-x: hidden;
     background-color: blanchedalmond;
 }
-.hero{
+.navigation_bar{
     width: 100%;
     height: 100vh;
     padding: 0 8%;
