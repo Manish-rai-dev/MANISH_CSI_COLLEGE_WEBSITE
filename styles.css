@@ -181,6 +181,7 @@ input
 
 .info
 { border-radius: 10%;
+    margin-left: 50px;
     background-color: ivory;  
 }
 table{
@@ -189,10 +190,57 @@ table{
 
 @media (max-width: 1080px)
 {
-    .form
+    .form,.info
     {
         margin-top: 10%;
         margin-right: 10%;
+        margin-bottom: 5% ;
         padding: 3%;
     }
+    
+    .akgskills
+    {
+        width: 300px;
+       margin-left: 17%;
+       border-radius: 15px;
+    }
+    .hostell
+    {
+        width: 300px;
+margin-left: 8%;
+       border-radius: 15px;
+    }
+
+}
+
+
+.info,.form
+{
+    box-shadow: 10px 10px 7px 3px #909090;
+}
+
+
+.cardz
+{
+    box-shadow: 7px 7px 5px 3px #909090 ;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: #909090;
+    
+    
+}
+
+.alumni1
+{
+    border-radius: 10px;
+}
+
+
+.btn2
+{
+    position: relative;
+    top: 300px;
+    left: 500px;
+    background-color: brown;
 }
